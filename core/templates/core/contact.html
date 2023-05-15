@@ -1,0 +1,80 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Contact{% endblock %}
+{% block content %}
+
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+    <div class="row text-white mb-5">
+        <p class="mx-auto mb-5">
+            Do you  have ant question? Please do not hesistate to contact .I will come back to you witjin 
+            a matter of hour to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Enter your name</label>
+                        <input type="text" class="form-control" id="inputName" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Enter your email</label>
+                        <input type="email" class="form-control" id="inputEmail" required />
+                    </div>
+
+
+                    <div class="form-group">
+                            <label for="inputSubject">Enter your subject</label>
+                            <input type="text" class="form-control" id="inputSubject" />
+                     </div>
+
+                        
+                            <div class=" mb-3">
+                                <label for="inputTextarea">Enter your message</label>
+                                <textarea class="form-control" id="inputTextarea" required ></textarea>
+                            </div>
+
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </form>
+              </div>    
+            </div> 
+              <div class="col-sm-3 text-center">
+                <ul class="list-unstyled">
+                    <li>
+                       <!-- <i class="fa-solid fa-location-dot fa-2xl i-color"></i>-->
+                       <i class="fas  fa-map-marker-alt fa-2xl i-color"></i>
+                        <p>Jhansi,UttarPradesh,India</p>
+                    </li>
+                    <li>
+                        <i class="fas  fa-phone mt-4 fa-2xl i-color"></i>
+                        <p>+91 7054834998</p>
+                    </li>
+
+                    <li>
+                        <i class="fas  fa-envelope mt-4 fa-2xl i-color"></i>
+                        <p>anchalpandey9076@gmail.com</p>
+                    </li>
+
+
+                </ul>
+                  
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <a href="#" target="_blank">
+        <i class="fab fa-instagram i-color" style="margin-right: 10px;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/anchal-pandey-669193232/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbWIjFRuiScGdnwlSYUrkJQ%3D%3D" target="_blank">
+        <i class="fab fa-linkedin i-color" style="margin-right: 10px;"></i>
+      </a>
+      <a href="https://github.com/anchalpandey1" target="_blank">
+        <i class="fab fa-github i-color" style="margin-right: 10px;"></i>
+      </a>
+    
+</div>
+
+
+
+{% endblock content %}

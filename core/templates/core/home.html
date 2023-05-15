@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/pic1.jpeg' %}" alt="ProfilePic" class="img-thumbnail" 
+    width="150px" height="150px">
+    </div>
+    
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height:2rem;"> 
+            <p style="text-indent:100px;"> I am <b class="text-warning">Anchal Pandey</b> persuing btech computer science and engineering
+                from Bundelkhand university in UttarPradesh . I am full-stack web developer and have a virtual internship experience 
+                as a frontend developer in <b class="text-warning"> OASIS INFOBYTE</b>  and <b class="text-warning">LET'S GROW MORE </b>
+                 I have relevent skill like HTML , CSS , JAVASCRIPT , MYSQL , DBMS, MONGODB,NODE.JS (MERN). some programming skill like <b class="text-warning">
+                    C++,C,PYTHON </b>  I have done 400+ question on <b class="text-warning">DATA STRUCTURE AND ALGORITHM </b> in various site like <b class="text-warning"> GEEKSFORGEEKS </b> and <b class="text-warning">CODECHEF</b> 
+                    and <b class="text-warning">LEETCODE</b> . I have  5 star<b class="text-warning">(*****) </b> on <b class="text-warning">HACKERRANK</b>
+
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3" style="margin-right: 8px;">Hire me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact </a>
+    </div>
+</div>
+{% endblock content %}

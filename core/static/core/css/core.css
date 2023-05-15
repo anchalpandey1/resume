@@ -1,0 +1,23 @@
+/*FONT*/
+.st-font{
+    font-family: "Satisfy";
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+/*services icon colour*/
+.i-color{
+    color:chartreuse;
+}
+/*services subtitle colour*/
+.ss-color{
+    color:silver;
+}
+
+#main-nav a.nav-link {
+    color: whitesmoke;
+  }
